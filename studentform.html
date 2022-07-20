@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Information Form
+       </title>
+        <style>
+            body {
+              background-image: url('background.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
+
+    </head>
+                                                                                              
+    <body>
+        
+
+        <h1 align = "center">
+            Student Information Form
+        </h1>
+
+        <h3 align = "center">
+            Enter the required Information
+        </h3>
+
+        
+        <form align = "center" action = "studentdisplay.html">
+            <!Student's name>
+            <label for = "name"> Student's name: </label><br>
+            <input type = "text" id = "name" name="name"><br>
+
+            <!Board>
+            <br>
+            Select board: <br>
+            <input type = "radio" id = "hsc" name = "board" value = "HSC">
+            <label for = "hsc">HSC</label><br>
+            <input type = "radio" id = "ssc" name = "board" value = "SSC">
+            <label for = "ssc">SSC</label><br>
+
+            <!Univeristy>
+            <br>
+            <label for = "name"> University </label><br>
+            <input type = "text" id = "university" name="university"><br>
+
+            <!Password>
+            <br>
+            <label for = "pwd">Enter password to confirm</label><br>
+            <input type = "password" id = "pwd" name = "pwd">
+
+            <!Submit and reset buttons>
+            <br><br><input type = "submit" value = "SUBMIT">
+            <input type = "reset" value = "RESET">
+
+        </form>
+    </body>
+</html>
